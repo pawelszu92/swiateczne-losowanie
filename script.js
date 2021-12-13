@@ -26,7 +26,3 @@ function formSubmitted(form) {
     // prevent page reload on submit
     return false;
 }
-
-function getArrayElement(arrayLength) {
-    return Math.floor(Math.random() * (arrayLength - 1));
-  }
